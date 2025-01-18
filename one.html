@@ -10,6 +10,18 @@
     <div>
         <h2>hwveiwvhey</h2>
         <p>hwvewyhwvewy</p>
+
+
+        <button onclick="myFunction()">Click me</button>
+
+
+        <script>
+            function myFunction() {
+                let str = document.getElementById("myTextarea").value;
+                let result = str.split("").reverse().join("");
+                document.getElementById("demo").innerHTML = result;
+            }
+        </script>
     </div>
 </body>
 </html>
